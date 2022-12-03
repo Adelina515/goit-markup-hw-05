@@ -43,7 +43,7 @@
         <section class="decision overlay section">
             <div class="container ">
                 <h1 class="decision-heading">Ефективні рішення  для <br> вашого бізнесу</h1>
-                <button type="button" class="btn">Замовити послугу</button>
+                <button type="button" class="btn" data-modal-open>Замовити послугу</button>
             </div>
         </section>
     
@@ -372,6 +372,18 @@
             
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-button" data-modal-close>
+                <svg width="18" height="18" class="modal-button-svg">
+                    <use href="./img/symbol-defs.svg#icon-close-black"></use>
+                </svg>
+            </button>
+    
+        </div>
+    
+    </div>
+    <script src="./js/modal.js"></script>
 
 </body>
 </html> 
